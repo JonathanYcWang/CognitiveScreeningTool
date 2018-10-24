@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="title">Login form</string>
+    <string name="registration">Registration Form</string>
+    <string name="app_name">CogScreeningTool</string>
+    <string name="Exit">Exit</string>
+    <string name="Clear">Clear</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+    <string name="Back">Back</string>
+    <string name="Next">Next</string>
+    <string name="Menu">Menu</string>
+    <string name="Start">Start</string>
+    <string name="Play">Play</string>
+    <string name="Pause">Pause</string>
+    <string name="Close">Close</string>
+    <string name="Resume">Resume</string>
+    <string name="Level">Level</string>
+    <string name="Score">Score</string>
+    <string name="DateTime">Date/Time</string>
+    <string name="Participant">Participant:</string>
+    <string name="PressPlay">When you\'re ready to begin, please press play.</string>
+    <string name="LetsStart">Let\'s Start</string>
+    <string name="TimesUp">Time\'s Up!</string>
+    <string name="title_activity_admin_login">Administrator Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_patient_login">Patient Login</string>
+    <string name="title_activity_patient_register">Patient Registration</string>
+    <string name="title_activity_admin_menu">Administrator Menu</string>
+    <string name="title_activity_patient_list">Patient List</string>
+    <string name="title_activity_patient_menu">Patient Menu</string>
+    <string name="title_activity_whack_amole_main">Whack-A-Mole Main</string>
+    <string name="title_activity_whack_amole_start">Whack-A-Mole Start</string>
+    <string name="title_activity_whack_amole_game">Whack-A-Mole Game</string>
+    <string name="title_activity_whack_amole_end">Whack A Mole End</string>
+    <string name="title_activity_patient_info">Patient Information</string>
+    <string name="spinner_title">Select Game Level</string>
+    <string name="instructions">Tap the mole with your finger and avoid hitting the mole wearing a hat.</string>
+    <string name="instructions_raccoon">Tap the mole with your finger and hit the raccoon for extra points.</string>
+    <string name="instructions_butterfly">Tap the mole with your finger and avoid hitting the butteries.</string>
+    <string name="instructions_moleonly">Tap the mole with your finger.</string>
+    <string name="signoff_confirm">Are you sure you want to sign off?</string>
+    <string name="signon_instructions">To register a new patient, please enter their ID.</string>
+    <string name="register_instructions">To begin, please sign in using your provided ID.</string>
+    <string name="register_patientid">Please enter your participant ID</string>
+    <string name="register_newpatient">Register New Participant</string>
+    <string name="signon_hint">Enter particpant ID</string>
+    <string name="title_instructions">Instructions</string>
+    <string name="title_registration">Registration Form</string>
+    <string name="title_participantlist">Participant List</string>
+    <string name="game_setting_distrator">Distractor style:</string>
+    <string name="game_setting_sound">Sound:</string>
+    <string name="game_setting_charactersize">Character size:</string>
+    <string name="game_setting_gridsize">Grid size:</string>
+    <string name="game_setting_2x2grid">2 x 2 grid</string>
+    <string name="game_setting_3x3grid">3 x 3 grid</string>
+    <string name="game_setting_gamelength">Game length (seconds):</string>
+    <string name="game_setting_on">On</string>
+    <string name="game_setting_off">Off</string>
+    <string name="game_setting_startgame">Start Game</string>
+    <string name="game_setting_molesonly">Moles only</string>
+    <string name="game_setting_molesbutterflies">Moles and Butterflies</string>
+    <string name="patientlist_instructions">Please select a patient to conduct a test with or register a new patient.</string>
+    <string name="patientlist_login">Below is a list of participants already registered on this tablet. Click on a participant to log them in.</string>
+
+    <string name="register_instructions2">Please enter patient ID you wish to register</string>
+    <string name="register_error">Patient ID cannot contain . # $ [ ] or space</string>
+    <string name="registered">Patient ID registered!</string>
+    <string name="login">Login</string>
+    <string name="dismiss"></string>
+    <string name="already_resgisterd">Patient ID already taken</string>
+
+    <string name="game_score0">Score: 0</string>
+    <string name="game_score">Score: </string>
+    <string name="Stop">Stop</string>
+    <string name="StartGame">Start</string>
+    <string name="game_timeremaining">Time remaining:</string>
+    <string name="level_beginner">Beginner</string>
+    <string name="level_intermediate">Intermediate</string>
+    <string name="level_expert">Expert</string>
+    <string name="level_multiplemoles">Hard</string>
+    <string name="level_molesraccoons">Harder</string>
+    <string name="title_tuturial">Tutorial</string>
+    <string name="game_livesremaining">Lives remaining: 3</string>
+    <string name="select_level">Please select a game level</string>
+
+    <string name="Okay">Okay</string>
+    <string name="Yes">Yes</string>
+    <string name="Ready">Ready</string>
+    <string name="Set">Set</string>
+    <string name="Go">Go</string>
+    <string name="Notes">Notes: </string>
+    <string name="SaveNote">Save Note</string>
+    <string name="EmptyNote">Empty Note.</string>
+    <string name="NoteSaved">Note Saved</string>
+    <string name="Replay">Replay</string>
+    <string name="NextLevel">Next Level</string>
+    <string name="GameMenu">Game Menu</string>
+    <string name="IncorrectLogin">Incorrect Login</string>
+    <string name="IncorrectLoginMessage">You have entered an incorrect patient ID.</string>
+    <string name="DatabaseQueryError">Database Query Error</string>
+    <string name="ThankYouSignOff">Thank you for signing off.</string>
+    <string name="UsernameInUse">This participant ID is already registered.</string>
+    <string name="RegistrationSuccessTitle">Registration successful</string>
+    <string name="RegistrationSuccess">Participant ID registration successful. Please hit Back to login.</string>
+    <string name="RegistrationNotSuccess">Registration Not Successful</string>
+    <string name="FillInFields">Please ensure all fields have been completed.</string>
+    <string name="FillInUsername">Please fill in the participant ID.</string>
+    <string name="MissingInformation">Missing Information</string>
+
+    <string-array name="language_spinner">
+        <item>English</item>
+        <item>Francais</item>
+    </string-array>
+
+    <string-array name="grid_size">
+        <item>2 x 2 grid</item>
+        <item>3 x 3 grid</item>
+    </string-array>
+    <string-array name="target_size">
+
+        <!-- <item>150 pixels</item> -->
+        <item>200 pixels</item>
+        <item>250 pixels</item>
+    </string-array>
+    <string-array name="distractor_style">
+        <item>Moles only</item>
+        <item>Moles and Butterflies</item>
+    </string-array>
+
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_patient_sign_off">Sign Off</string>
+    <string name="title_activity_whack_amole_menu">Whack A Mole - Game Menu</string>
+    <string name="title_activity_whack_amole_tutorial">Tutorial</string>
+    <string name="title_activity_whack_amole__game_175__raccoons">Whack A Mole</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_mole2">mole</string>
+    <string name="title_activity_whack_amole__two_by_two__mole_only__multiple">Whack A Mole</string>
+
+    <string name="menu_signoff">Sign Off</string>
+    <string name="menu_export_sql">Exporter to SQL</string>
+    <string name="menu_export_csv">Export to CSV</string>
+    <string name="menu_close">Close</string>
+    <string name="title_activity_choose_language">Choose Language</string>
+
+
+    <string name="final_score">Final Score: </string>
+    <string name="select_game_type">Please Select A Game Type</string>
+
+    <string name="inhibition">Inhibition</string>
+    <string name="shifting">Shifting</string>
+    <string name="updating">Updating</string>
+
+    <string name="sign_in">To Begin, Please Enter A Participant ID Below.</string>
+    <string name="game_time">Game Length</string>
+
+    <string name="wave">Wave</string>
+    <string name="randomize_level">Randomize Level</string>
+    <string name="pick_number">Pick the number of </string>
+    <string name="pick_game_length">Pick Length</string>
+    <string name="pick">Pick </string>
+
+    <string name="default_0">0</string>
+    <string name="default_1">1</string>
+
+    <string name="pick_n_value">Pick \'N\' value</string>
+    <string name="match_with">Match With</string>
+    <string name="title_activity_player_stats">PlayerStats</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="understanding_delirium">Understanding Delirium</string>
+    <string name="report">Report</string>
+
+</resources>

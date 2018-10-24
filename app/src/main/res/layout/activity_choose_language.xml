@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/choose_language"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+<include layout="@layout/background_field" />
+    <include layout="@layout/background_clouds" />
+    <include layout="@layout/background_grass" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/title2" />
+
+            <TextView
+                android:id="@+id/SelectText"
+                style="@style/TextSizeLarge"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="50dp"
+                android:text="Please select your language below/\nS'il vous plaît choisir votre langue ci-dessous" />
+
+            <LinearLayout
+                android:id="@+id/LoginButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/SelectText"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/chooseLanguageSpinner"
+                    style="@style/TextSizeSmall"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".05" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="@style/ButtonText"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".45"
+                    android:background="@drawable/button_sign"
+                    android:clickable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="onClick"
+                    android:text="Start / Commence" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

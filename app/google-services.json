@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "529252027900",
+    "firebase_url": "https://cogscreeningtool.firebaseio.com",
+    "project_id": "cogscreeningtool",
+    "storage_bucket": "cogscreeningtool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529252027900:android:e0759e10aabda8c4",
+        "android_client_info": {
+          "package_name": "jon.cogscreeningtool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529252027900-f1set4uivsmglur56j0bhgja842b7k8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jon.cogscreeningtool",
+            "certificate_hash": "1bdf6ed45e8d77358f1b3c98c338b2733109456a"
+          }
+        },
+        {
+          "client_id": "529252027900-1932gco87l08snaf3qhldj8d9ea07a7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB2rYcV6YZivLca26HCaKWTUHSMytOPBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529252027900-1932gco87l08snaf3qhldj8d9ea07a7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

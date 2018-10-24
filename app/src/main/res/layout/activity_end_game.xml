@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background" >
+
+    <RelativeLayout
+        android:id="@+id/field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/field"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/fence"
+        android:layout_toEndOf="@+id/fence"
+        android:layout_marginBottom="26dp">
+
+        <TextView
+            android:id="@+id/Score"
+            style="@style/ButtonText"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_sign_long"
+            android:gravity="center"
+            android:text="@string/final_score"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <include layout="@layout/background_grass" />
+
+    <LinearLayout
+        android:id="@+id/finalScore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/fence"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageView
+            android:id="@+id/imageScore1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/star_grey" />
+
+
+        <ImageView
+            android:id="@+id/imageScore2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/star_grey" />
+
+        <ImageView
+            android:id="@+id/imageScore3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/star_grey" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/finalScore">
+
+        <Button
+            android:id="@+id/buttonReplay"
+            style="@style/ButtonText"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight=".45"
+            android:background="@drawable/button_sign"
+            android:onClick="replay"
+            android:text="@string/Replay"></Button>
+
+        <Button
+            android:id="@+id/GameMenu"
+            style="@style/ButtonText"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight=".45"
+            android:background="@drawable/button_sign"
+            android:onClick="gameMenu"
+            android:text="@string/GameMenu"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notes_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttons"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <EditText
+            android:id="@+id/notes"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="fill_horizontal"
+            android:hint="@string/Notes"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:textColorHint="#333" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/save_notes_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/notes_area">
+
+        <Button
+            android:id="@+id/save_button"
+            style="@style/ButtonText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:background="@drawable/button_sign"
+            android:clickable="true"
+            android:onClick="saveNote"
+            android:text="@string/SaveNote" />
+    </LinearLayout>
+
+</RelativeLayout>
